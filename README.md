@@ -7,7 +7,7 @@ Checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can acces
 To use this action in your GitHub repository, you can follow these steps:
 
 ```yaml
-uses: maurosoft1973/git-checkout@v1
+uses: maurosoft1973/gha-git-checkout@v1
 ```
 
 ### Inputs
@@ -32,7 +32,7 @@ This action has no outputs.
 ```yaml
 steps:
   - name: Checkout
-    uses: maurosoft1973/git-checkout@v1
+    uses: maurosoft1973/gha-git-checkout@v1
 ```
 
 ## Contributing to Git Checkout
